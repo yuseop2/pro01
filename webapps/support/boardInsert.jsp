@@ -74,11 +74,6 @@ String path = request.getContextPath();
     <div class="container">
 		<%@ include file="../header.jsp" %>
         <div class="content">
-            <figure class="vs">
-                <div class="img_box">
-                    <h1 class="tit">Support</h1>
-                </div>
-            </figure>
             <section class="page" id="page1">
                 <h2 class="page_tit">공지사항 글 쓰기</h2>
                 <div class="page_wrap">
@@ -101,7 +96,7 @@ String path = request.getContextPath();
 								<tr>
 									<td colspan="2">
 										<input type="submit" value="글 등록" class="btn btn-primary"> &nbsp; &nbsp; &nbsp; &nbsp;
-										<input type="reset" value="취소" class="btn btn-cancle" onclick="init()">
+										<input type="reset" value="취소" class="btn btn-cancle"  onclick="init()">
 									</td>
 								</tr>
 							</tbody>

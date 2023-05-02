@@ -64,12 +64,7 @@
 <body>
     <div class="container">
 		<%@ include file="./admin_header.jsp" %>
-        <div class="content">
-            <figure class="vs">
-                <div class="img_box">
-                    <h1 class="tit">JOIN</h1>
-                </div>
-            </figure>
+        <div class="content">           
             <section class="page" id="page1">
                 <h2 class="page_tit">회원가입</h2>
                 <div class="page_wrap">
@@ -98,16 +93,16 @@
 									<td><input type="text" name="name" id="name" pattern="^[가-힣A-Za-z]{2,12}$" class="indata" required></td>
 								</tr>
 								<tr>
-									<th><label for="tel" class="lb">전화번호</label></th><!-- pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"  -->
-									<td><input type="tel" name="tel" id="tel" maxlength="13" class="indata"></td>
+									<th><label for="phone" class="lb">전화번호</label></th><!-- pattern="[0-9]{2,3}-[0-9]{3,4}-[0-9]{4}"  -->
+									<td><input type="tel" name="phone" id="phone" maxlength="13" class="indata"></td>
 								</tr>
 								<tr>
 									<th><label for="email" class="lb">이메일</label></th><!-- pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{5,90}$"  -->
 									<td><input type="email" name="email" id="email" class="indata"></td>
 								</tr>
 								<tr>
-									<th><label for="email" class="lb">주소</label></th><!-- maxlength="190"  -->
-									<td><input type="text" name="addr" id="addr" class="indata"></td>
+									<th><label for="address" class="lb">주소</label></th><!-- maxlength="190"  -->
+									<td><input type="text" name="address" id="address" class="indata"></td>
 								</tr>
 								<tr>
 									<td colspan="2">

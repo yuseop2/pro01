@@ -114,12 +114,7 @@
 <body>
     <div class="container">
 		<%@ include file="./admin_header.jsp" %>
-        <div class="content">
-            <figure class="vs">
-                <div class="img_box">
-                    <h1 class="tit">My Page</h1>
-                </div>
-            </figure>
+        <div class="content">           
             <section class="page" id="page1">
                 <h2 class="page_tit">회원 수정</h2>
                 <div class="page_wrap">

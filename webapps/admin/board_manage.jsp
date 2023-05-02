@@ -101,55 +101,55 @@
 		String driver = "org.postgresql.Driver";
 		String url = "jdbc:postgresql://localhost/pro1";
 		String user = "postgres";
-		String pass = "1234";
+		String pass = "1234";	
 		
 		Connection conn = null;
 		PreparedStatement pstmt = null;
 		ResultSet rs = null;
 		String sql = "";
-		String kid = "";
-		int i = 0;
 		try {
 			Class.forName(driver);
 			try {
 				conn = DriverManager.getConnection(url, user, pass);
-				sql = "select * from board order by w_date desc";
+				sql = "select board.w_num as w_num, board.title as title, board.content as content, member.name as name, board.w_date as w_date, board.author as author from board, member where board.author=member.id";
 				try {
 					pstmt = conn.prepareStatement(sql);
 					rs = pstmt.executeQuery();	
 						if(rs==null){
 %>
-							<tr><td colspan="5">게시글이 존재하지 않습니다.</td></tr>
+						<tr><td colspan="4">게시글이 존재하지 않습니다.</td></tr>
 <%							
 						}	
 						while(rs.next()){
-							++i;
-							kid = rs.getString("author");
 %>
-							<tr>
-								<td><%=i %></td>
-								<td>
-									<a href='<%=path %>/admin/boardDetail.jsp?id=<%=kid %>'><%=rs.getString("title") %></a>
-								</td>
-								<td><%=rs.getString("content") %></td>
-								<td><%=kid %></td>								
-								<td><%=rs.getString("w_date") %></td>
-								<td>								
-									<% if(!kid.equals("admin")) { %>
-									<a href='<%=path %>/admin/board_del.jsp?id=<%=kid %>' class="btn btn-primary" id="board_del">직권 탈퇴</a>
-									<% } %>
-								</td>
-							</tr>
+						<tr>
+							<td><%=rs.getString("w_num") %></td>
+							<td>
+<%
+							if(pid!=""){
+%>							
+								<a href="<%=path %>/support/boardDetail.jsp?w_num=<%=rs.getString("w_num") %>"><%=rs.getString("title") %></a>
+<%
+							} else {
+%>
+								<span><%=rs.getString("title") %></span>
+<%
+							}
+%>
+							</td>
+							<td><%=rs.getString("name") %></td>
+							<td><%=rs.getString("w_date") %></td>
+						</tr>
 <%							
-						}
+							}
 %>	
-						</tbody>
-					</table>
-					<div class="grp_btn" style="width:1280px; margin:20px auto;">
+					</tbody>
+				</table>
+				<div class="grp_btn" style="width:900px; margin:20px auto;">
 <%
 							if(pid.equals("admin")){
 %>						
-						<a href="<%=path %>/admin/boardInsert.jsp" class="btn btn-primary">게시글 등록</a>
+						<a href="<%=path %>/support/boardInsert.jsp" class="btn btn-primary">글쓰기</a>
 <%
 							} else {
 %>
@@ -157,8 +157,8 @@
 <%
 							}
 %>
-					</div>
-<%
+				</div>
+				<%
 				rs.close();
 				pstmt.close();
 				conn.close();
@@ -171,8 +171,7 @@
 	} catch(ClassNotFoundException e){
 		System.out.println("드라이버 로딩 실패~!");
 	}
-%>
-				</div>
+%>				
 				<script>
 				$(document).ready(function(){
 				    $('#tb1').DataTable({'order': [[0, 'desc']]});
