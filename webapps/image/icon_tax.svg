@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="96" height="96" viewBox="0 0 96 96">
+    <defs>
+        <clipPath id="sruubfyola">
+            <path data-name="패스 8937" d="M0 0h36v36H0z" style="fill:none"/>
+        </clipPath>
+    </defs>
+    <g data-name="그룹 4634">
+        <path data-name="패스 7684" d="M.75 80.75V7.184A6.59 6.59 0 0 1 7.484.75H66a6.59 6.59 0 0 1 6.75 6.419V80.75l-15.21-6.176-10.049 6.176-10.684-6.176-10.828 6.176-10.39-6.176z" transform="translate(11.25 7.25)" style="stroke:#697278;stroke-width:2px;fill:none"/>
+    </g>
+    <g data-name="그룹 4636">
+        <g data-name="마스크 그룹 3961" style="clip-path:url(#sruubfyola)" transform="translate(30 30)">
+            <path data-name="패스 8848" d="M26.525 0 0 25.926" transform="translate(5.059 4.969)" style="stroke-linecap:round;stroke:#697278;stroke-width:2px;fill:none"/>
+            <path data-name="패스 8846" d="M12.169 6.765a5.585 5.585 0 1 1-5.583-5.584 5.583 5.583 0 0 1 5.583 5.584z" transform="translate(1.036 1.223)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#697278;stroke-width:2px;fill:none"/>
+            <path data-name="패스 8847" d="M22.367 16.782a5.585 5.585 0 1 1-5.583-5.582 5.584 5.584 0 0 1 5.583 5.582z" transform="translate(11.597 11.597)" style="stroke-linejoin:round;stroke-linecap:round;stroke:#697278;stroke-width:2px;fill:none"/>
+        </g>
+    </g>
+</svg>

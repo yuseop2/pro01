@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" viewBox="0 0 48 48">
+    <g data-name="그룹 954" transform="translate(8 5)">
+        <path data-name="패스 2324" d="M1250 1386h-26a3 3 0 0 1-3-3v-32a3 3 0 0 1 3-3h26a3 3 0 0 1 3 3v32a3 3 0 0 1-3 3z" transform="translate(-1221 -1348)" style="fill:none;stroke:#697278;stroke-width:2px"/>
+        <path data-name="선 185" transform="translate(10 9)" style="fill:none;stroke:#697278;stroke-width:2px" d="M0 0h16"/>
+        <circle data-name="타원 73" cx="1" cy="1" r="1" transform="translate(6 8)" style="fill:#697278"/>
+        <path data-name="선 186" transform="translate(10 16)" style="fill:none;stroke:#697278;stroke-width:2px" d="M0 0h16"/>
+        <circle data-name="타원 74" cx="1" cy="1" r="1" transform="translate(6 15)" style="fill:#697278"/>
+        <path data-name="선 187" transform="translate(10 23)" style="fill:none;stroke:#697278;stroke-width:2px" d="M0 0h16"/>
+        <circle data-name="타원 75" cx="1" cy="1" r="1" transform="translate(6 22)" style="fill:#697278"/>
+        <path data-name="선 188" transform="translate(10 30)" style="fill:none;stroke:#697278;stroke-width:2px" d="M0 0h16"/>
+        <circle data-name="타원 76" cx="1" cy="1" r="1" transform="translate(6 29)" style="fill:#697278"/>
+    </g>
+</svg>

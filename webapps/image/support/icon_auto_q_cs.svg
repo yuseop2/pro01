@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="32" height="32" viewBox="0 0 32 32">
+    <path style="fill:red;opacity:.002" d="M0 0h32v32H0z"/>
+    <g data-name="그룹 3650" transform="translate(3.5 4.5)">
+        <path data-name="패스 6318" d="M8.331 25.376H2.363A1.889 1.889 0 0 1 .5 23.46V4.577a1.889 1.889 0 0 1 1.863-1.915h19.614a1.889 1.889 0 0 1 1.863 1.915v4.775" transform="translate(-1 -2.064)" style="fill:none;stroke:#697278;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="패스 6319" d="M6.6 3.1v0z" transform="translate(-2.371 -2)" style="fill:none;stroke:#697278;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="패스 6320" d="M12.943 3.1v0z" transform="translate(-1.813 -2)" style="fill:none;stroke:#697278;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="패스 6321" d="M19.289 3.1v0z" transform="translate(-1.255 -2)" style="fill:none;stroke:#697278;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <circle data-name="타원 231" cx="6.5" cy="6.5" r="6.5" transform="translate(12.499 11.501)" style="fill:none;stroke:#697278;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+        <path data-name="패스 6322" d="M19.289 16.961v2.268h2.241" transform="translate(-.359 -1.299)" style="fill:none;stroke:#697278;stroke-linecap:round;stroke-linejoin:round;stroke-width:1.5px"/>
+    </g>
+</svg>
