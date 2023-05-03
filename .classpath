@@ -13,5 +13,10 @@
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.web.container"/>
 	<classpathentry kind="con" path="org.eclipse.jst.j2ee.internal.module.container"/>
+<<<<<<< HEAD
 	<classpathentry kind="output" path="webapps/WEB-INF/classes"/>
+=======
+	<classpathentry kind="lib" path="D:/lys/lib/postgresql-42.6.0.jar"/>
+	<classpathentry kind="output" path="webapps/classes"/>
+>>>>>>> 38a5f08c053daa1d55055a1942475b608345413f
 </classpath>

@@ -12,7 +12,11 @@
 <html>
 <head>
 <meta charset="UTF-8">
+<<<<<<< HEAD
 <title>관리자 페이지 - 게시판 관리</title>
+=======
+<title>관리자 페이지 - 공지사항 관리</title>
+>>>>>>> 38a5f08c053daa1d55055a1942475b608345413f
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -89,7 +93,11 @@
                 </div>
             </figure>
             <section class="page" id="page1">
+<<<<<<< HEAD
                 <h2 class="page_tit">게시판 관리</h2>
+=======
+                <h2 class="page_tit">공지사항 관리</h2>
+>>>>>>> 38a5f08c053daa1d55055a1942475b608345413f
                 <div class="tb_wrap">
 					<table class="table" id="tb1">
 						<thead>
@@ -158,6 +166,10 @@
 							}
 %>
 				</div>
+<<<<<<< HEAD
+=======
+				</div>
+>>>>>>> 38a5f08c053daa1d55055a1942475b608345413f
 				<%
 				rs.close();
 				pstmt.close();
@@ -179,6 +191,10 @@
 				</script>
 			</section>
 		</div>
+<<<<<<< HEAD
+=======
+		
+>>>>>>> 38a5f08c053daa1d55055a1942475b608345413f
         <%@ include file="../footer.jsp" %>
 	</div>
 </body>
